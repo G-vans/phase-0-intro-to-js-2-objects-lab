@@ -28,7 +28,7 @@ function deleteFromEmployeeByKey(employee, key) {
     let newEmployee = {...employee}
     delete newEmployee.name
     delete newEmployee.streetAddress
-    // console.log(newEmployee)
+
     return newEmployee
     
 }
